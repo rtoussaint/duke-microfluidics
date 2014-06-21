@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Ryan Toussaint">
+    <!-- <link rel="shortcut icon" href="../../assets/ico/favicon.ico"> -->
+    <title>Duke Microfluidics Lab</title>
+    <!-- Bootstrap core CSS -->
+    <link href="stylesheets/css/bootstrap.css" rel="stylesheet">
+    <link href="stylesheets/css/site.css" rel="stylesheet">
+    <link href="stylesheets/css/extra.css" rel="stylesheet">
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Static navbar -->
+    <div class="navbar navbar-default nav-fluidics" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand logo" href="index.html"><img src="img/logo.jpg"></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right carousel-linked-nav">
+          <li class="present"><a href="#1">Home</a></li>
+          <li><a href="#2">About</a></li>
+          <li><a href="#3">Videos</a></li>
+          <li><a href="#4">Publications</a></li>
+          <li><a href="#5">Press</a></li>
+          <li><a href="#6">Contact</a></li>
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+      <!--/.container-fluid -->
+    </div>
+    <!-- LINKED NAV -->
+   
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="myCarousel" class="carousel slide">
+            <!-- Carousel items -->
+            <div class="carousel-inner">
+              
+              <div id="main" class="item active slide" data-interval="false">
+                <div class="row">
+                  <div class="col-sm-5">
+                    <iframe id="video" class="hidden-phone hidden-tablet" width="420" height="315" src="http://www.youtube.com/embed/oANx0jISx-w?rel=0&autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                  <div class="col-sm-7">
+                    <!--  <header><h1 class="fade-in one">Duke Microfluidics Lab</h1></header> -->
+                    <h1 class="fade-in one">Duke</h1>
+                    <h1 class="fade-in two">Microfluidics Lab</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="item slide" data-interval="false">
+                <section>
+                  <header>
+                    <h2>About Us</h2>
+                  </header>
+                  <p>Digital microfluidics is an alternative paradigm for lab-on-a-chip systems based upon micromanipulation of discrete droplets. Microfluidic processing is performed on unit-sized packets of fluid which are transported, stored, mixed, reacted, or analyzed in a discrete manner using a standard set of basic instructions. In analogy to digital microelectronics, these basic instructions can be combined and reused within heirarchical design structures so that complex procedures (e.g. chemical synthesis or biological assays) can be built up step-by-step. And in contrast to continuous-flow microfluidics, digital microfluidics works much the same way as traditional bench-top protocols, only with much smaller volumes and much higher automation. Thus a wide range of established chemistries and protocols can be seamlessly transferred to a nanoliter droplet format.
+                  </p>
+                  <img class="center" src="img/electrowettingmicroactuator.jpg">
+                  <p>
+                    Research in Dr. Richard Fair's laboratory at Duke University has focused on the use of electrowetting arrays to demonstrate the digital microfluidic concept. Electrowetting is essentially the phenomenon whereby an electric field can modify the wetting behavior of a droplet in contact with an insulated electrode. If an electric field is applied non-uniformly then a surface energy gradient is created which can be used to manipulate a droplet sandwiched between two plates. Electrowetting arrays allow large numbers of droplets to be independently manipulated under direct electrical control without the use of pumps, valves or even fixed channels.
+                  </p>
+                </section>
+                <section>
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <header>
+                        <h3>Team</h3>
+                      </header>
+                      <p>Current research group members include:</p>
+                      <ul>
+                        <li>
+                          <p><a href="http://fds.duke.edu/db/pratt/ECE/faculty/rfair">Richard B. Fair</a>, Ph.D., Professor</p>
+                        </li>
+                        <li>
+                          <p><a href="http://fds.duke.edu/db/pratt/ECE/faculty/krish">Krishnendu Chakrabarty</a>, Ph.D., Professor</p>
+                        </li>
+                        <li>
+                          <p><a href="mailto:mwr.134@duke.edu">Matthew W. Royal</a>, Postdoctoral Associate</p>
+                        </li>
+                        <li>
+                          <p><a href="mailto:andrew.madison@duke.edu">Andrew C. Madison</a>, Graduate Student</p>
+                        </li>
+                        <li>
+                          <p><a href="mailto:bh45@duke.edu">Bang-Ning Hsu</a>, Graduate Student</p>
+                        </li>
+                        <li>
+                          <p><a href="mailto:lc193@duke.edu">Liji Chen</a>, Graduate Student</p>
+                        </li>
+                        <li>
+                          <p><a href="http://www.ee.duke.edu/faculty/nan-marie-jokerst">Nan Jokerst</a>, Ph.D., Professor</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-6">
+                    </div>
+                </section>
+              </div>
+                           
+                <div class="item slide" data-interval="false">
+                  <div class="row">
+                    <div class="col-sm-2 title">
+                      <h4>Droplet Transport</h4>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="bl popoverData" data-content="The Electrowetting Effect (in air)" rel="popover" data-placement="bottom" data-trigger="hover">
+                        <a href="http://youtu.be/mwtBkOKjw_8"><img src="http://img.youtube.com/vi/mwtBkOKjw_8/1.jpg"></a>
+                      </div>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="bl popoverData" data-content="Top view of programmable flow on a 2-D electrode array" rel="popover" data-placement="bottom" data-trigger="hover">
+                          <a href="http://youtu.be/hMAQJBpM32I"><img src="http://img.youtube.com/vi/hMAQJBpM32I/1.jpg"></a>
+                      </div>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="bl popoverData" data-content="Top view of flow on a ring structure" rel="popover" data-placement="bottom" data-trigger="hover">
+                          <a href="http://youtu.be/C0ig8U5l_sE"><img src="http://img.youtube.com/vi/C0ig8U5l_sE/1.jpg"></a>
+                      </div>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="bl popoverData" data-content="Side-view of droplet transport (in air)" rel="popover" data-placement="bottom" data-trigger="hover">
+                        <a href="http://youtu.be/AgV-zvQCpGM"><img src="http://img.youtube.com/vi/AgV-zvQCpGM/1.jpg"></a>
+                      </div>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="bl popoverData" data-content="Top view of a 6 nl droplet" rel="popover" data-placement="bottom" data-trigger="hover">
+                        <a href="http://youtu.be/MMHE7GYpHXI"><img src="http://img.youtube.com/vi/MMHE7GYpHXI/1.jpg"></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-2 title">
+                      <h4>Droplet Dispensing</h4>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="bl popoverData" data-content="Top view of slow droplet dispensing from an external source" rel="popover" data-placement="bottom" data-trigger="hover">
+                        <a href="http://youtu.be/2HWUTUaGgmw"><img src="http://img.youtube.com/vi/2HWUTUaGgmw/1.jpg"></a>
+                      </div>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="bl popoverData" data-content="Top view of fast droplet dispensing from an external source" rel="popover" data-placement="bottom" data-trigger="hover">
+                        <a href="http://youtu.be/AOTQO8Rc9wY"><img src="http://img.youtube.com/vi/AOTQO8Rc9wY/1.jpg"></a>
+                      </div>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="bl popoverData" data-content="Top view of droplet formation through Electrowetting" rel="popover" data-placement="bottom" data-trigger="hover">
+                        <a href="http://youtu.be/oANx0jISx-w"><img src="http://img.youtube.com/vi/oANx0jISx-w/1.jpg"></a>
+                      </div>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="bl popoverData" data-content="Top view of multiplexed droplet formation from an external source" rel="popover" data-placement="bottom" data-trigger="hover">
+                        <a href="http://youtu.be/9bktXccTD98"><img src="http://img.youtube.com/vi/9bktXccTD98/1.jpg"></a>
+                      </div>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="bl">
+                        <div class="bl">Video</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-2 title">
+                      <h4>Droplet Mixing</h4>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="bl popoverData" data-content="Top and side views of 4-electrode" rel="popover" data-placement="bottom" data-trigger="hover">
+                        <a href="http://youtu.be/oZxL0aw0eQQ"><img src="http://img.youtube.com/vi/oZxL0aw0eQQ/1.jpg"></a>
+                      </div>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="bl popoverData" data-content="Top view of 2-electrode mixing at 1Hz switching speeds (slow mixing)." rel="popover" data-placement="bottom" data-trigger="hover">
+                        <a href="http://youtu.be/8qrksV8AadA"><img src="http://img.youtube.com/vi/8qrksV8AadA/1.jpg"></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-2 title">
+                      <h4>Droplet Splitting</h4>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="bl popoverData" data-content="KCl droplet is split and merged across several electrodes" rel="popover" data-placement="bottom" data-trigger="hover">
+                        <a href="http://youtu.be/6zOivSoO_oU">
+                        <a href="http://youtu.be/li9bORR3QtY"><img src="http://img.youtube.com/vi/li9bORR3QtY/1.jpg"></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-2 title">
+                      <h4>Biological Arrays</h4>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="bl popoverData" data-content="Top view of a 1.4 uL whole human blood droplet oscillating at 16Hz" rel="popover" data-placement="bottom" data-trigger="hover">
+                        <a href="http://youtu.be/6zOivSoO_oU"><img src="http://img.youtube.com/vi/6zOivSoO_oU/1.jpg"></a>
+                      </div>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="bl">Video</div>
+                    </div>
+                    <div class="col-sm-2">
+                    </div>
+                    <div class="col-sm-2">
+                    </div>
+                    <div class="col-sm-2">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-2 title">
+                      <h4>Fundamental Studies</h4>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="bl">Video</div>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="bl">Video</div>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="bl">Video</div>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="bl">Video</div>
+                    </div>
+                    <div class="col-sm-2">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item pub slide" data-interval="false">
+                  <header>
+                    <h2 id="sec_pub">Publications</h2>
+                  </header>
+                  <p><a href="publications.html">Click here for a complete list of publications.</a></p>
+                  <ol>
+                    <li>
+                      <p>K. Hu, B.-N. Hsu, A. Madison, K. Chakrabarty and R. Fair <b>"Fault Detection, Real-Time Error Recovery, and Experimental Demonstration for Digital Microfluidic Biochips"</b> <i>Monitoring Active Filters under Automotive Aging Scenarios with Embedded Instrument,</i> pp. 559-564, 2013
+                      <a href="doc/Hu.2013.pdf">PDF</a></p>
+                    </li>
+                    <li>
+                      <p>M. W. Royal, N. M. Jokerst and R. B. Fair <b>"Droplet-Based Sensing: Optical Microresonator Sensors Embedded in Digital Electrowetting Microfluidics Systems"</b> <i>IEEE Sensors Journal,</i> vol. 13, no. 12, December 2013, pp. 4733-4742
+                      <a href="doc/Royal.2013.pdf">PDF</a></p>
+                    </li>
+                    <li>
+                      <p>B.-N. Hsu, A. C. Madison and R. B. Fair &quot;<b>Accelerate Sepsis Diagnosis by Seamless Integration of DNA Purification and qPCR</b>,&quot;<i>Proceedings of the 16th International Conference on Miniaturized Systems for Chemistry and Life Sciences (microTAS '12), Okinawa, Japan, October 28-November 1, 2012, </i>pp. 830-832.<a href="doc/Bang_microTAS12.pdf"> PDF</a>,<a href="doc/Bang_microTAS12_Poster.pdf"> Poster</a></p>
+                    </li>
+                    <li>
+                      <p>M. W. Royal, N. M. Jokerst, and R. B. Fair &quot;<b>Integrated Sample Preparation and Sensing: Polymer Microresonator Sensors Embedded in Digital Electrowetting Microfluidic Systems</b>,&quot; <i>IEEE Photonics, </i>vol. 4, pp. 2126-2135, 2012.<a href="http://dx.doi.org/10.1109/JPHOT.2012.2226873"> DOI</a></p>
+                    </li>
+                    <li>
+                      <p>M. W. Royal, R. B. Fair, and N. M. Jokerst &quot;<b>Integrated Sample Preparation and Sensing: Microresonator Optical Sensors Embedded in Digital Electrowetting Microfluidics Systems</b>,&quot; <i>Proceedings of the 10th IEEE Sensors Conference, Limerick, Ireland, October 28-31, 2011, </i>pp. 2050-2053.<a href="http://dx.doi.org/10.1109/ICSENS.2011.6127195"> DOI</a></p>
+                    </li>
+                  </ol>
+                  <p><b>WARNING:</b> This directory contains pdf files of articles that may be covered by copyright. You may browse the articles at your convenience, in the same spirit as you may read a journal or a proceedings article in a public library. Retrieving, copying, or distributing these files may violate copyright protection laws</p>
+                </div>
+                <div class="item slide" data-interval="false">
+                  <header>
+                    <h2>Press</h2>
+                  </header>
+                  <ul>
+                    <li>
+                      <p><a href="http://www.technologyreview.com/articles/rnb_101303.asp?p=1">Chip 
+                        mixes droplets faster</a>, MIT Technology Review, October 2003.
+                      </p>
+                    </li>
+                    <!--
+                      <li><p><a href="http://www.heise.de/newsticker/data/wst-24.09.03-002/">�ltr�pfchen 
+                        f�r schnelles E-Papier (Oil Droplets for Fast E-Paper)</a>, 
+                        Heise Online, September 2003.</p></li>
+                      -->
+                    <li>
+                      <p><a href="http://www.trnmag.com/Stories/2002/090402/Chip_juggles_droplets_090402.html">Chip 
+                        Juggles Droplets</a>, Technology Research News, Sep. 4-11, 2002.
+                      </p>
+                    </li>
+                    <li>
+                      <p><a href="http://science.slashdot.org/science/02/08/03/212224.shtml?tid=134">Digital Microfluidics</a>, Slashdot, August 3, 2002.</p>
+                    </li>
+                    <li>
+                      <p><a href="img/PopMechArticle.JPG">Laboratory on a Chip</a>, Popular Mechanics, March 2002.</p>
+                    </li>
+                    <li>
+                      <p><a href="http://www.esdjournal.com/articles/labchip/Lab.htm">Lab-on-a-Chip 
+                        Technology May Present New ESD Challenges</a>, Electrostatic Discharge Journal, March 2002.
+                      </p>
+                    </li>
+                    <li>
+                      <p><a href="http://www.rdmag.com/features/0112iedm.asp">Making Materials Fit the Future</a>, R&amp;D Magazine, December 2001.</p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="item slide" data-interval="false">
+                  <div class="row">
+                    <div class="col-sm-4 blk-img">
+                      <img src="img/chat.svg">
+                    </div>
+                    <div class="col-sm-8">
+                      <h3 class="fair">Professor Richard Fair</h3>
+                      <p>Email: rfair AT ee.duke.edu<br>
+                        Department of Electrical and Computer Engineering <br>Box 90291 <br> Durham, NC 27708 <br>919-660-5277 (office)
+                      </p>
+                    </div>
+                  </div>
+                  <div class="footer">
+                    <div class="popoverData" data-content="Chat by Leandro Villas Boas from The Noun Project" rel="popover" data-placement="top" data-trigger="hover">
+                    Credits
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- FOOTER 
+        <footer>
+                <p>&copy; 2014 Duke Microfluidics &middot;</p>
+              </footer>
+        
+            -->
+    </div>
+
+
+
+    <!-- /.container -->
+    <!-- Bootstrap core JavaScript
+      ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" scr="js/myCarousel.js"></script>
+    <script src="js/bootstrap.js"></script>
+    
+    <script type="text/javascript">
+      $('.popoverData').popover();
+
+
+
+      $(document).ready(function() {      
+        $('.carousel').carousel('pause');
+
+
+        $('.carousel').carousel({
+          interval: false
+        })
+      });
+      
+      /* SLIDE ON CLICK */ 
+      
+      $('.carousel-linked-nav > li > a').click(function() {
+      console.log("got here")
+      // grab href, remove pound sign, convert to number
+      var item = Number($(this).attr('href').substring(1));
+      
+      // slide to number -1 (account for zero indexing)
+      $('#myCarousel').carousel(item - 1);
+      
+      // remove current active class
+      $('.carousel-linked-nav .present').removeClass('present');
+      
+      // add active class to just clicked on item
+      $(this).parent().addClass('present');
+      
+      // don't follow the link
+      return false;
+      });
+      
+      /* AUTOPLAY NAV HIGHLIGHT */
+      
+      // bind 'slid' function
+      $('#myCarousel').bind('slid', function() {
+      
+      // remove active class
+      $('.carousel-linked-nav .active').removeClass('active');
+      
+      // get index of currently active item
+      var idx = $('#myCarousel .item.active').index();
+      
+      // select currently active item and add active class
+      $('.carousel-linked-nav li:eq(' + idx + ')').addClass('active');
+      
+      });
+      
+      
+      
+      
+    </script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+.citation-text{
+	font-size: 1.2em;
+}
+
+#publications{
+	padding-right: 8em;
+	padding-left: 8em;
+}
+
+#publications header{
+	margin-bottom: 2em;
+}
+
+.year-nav a{
+	margin-right: 1em;
+}
+
+.pub ol h3{
+	margin-left: -2em;
+}
+
+#to_top{
+	position: fixed;
+	left: 10px;
+	bottom: 30px;
+	display: none;
+}
+
+#to_top p {
+	color: #999;
+}
+
+#to_top:hover{
+	text-decoration: none;
+	cursor: pointer;
+}
+
