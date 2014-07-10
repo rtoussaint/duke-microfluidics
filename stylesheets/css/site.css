@@ -2,8 +2,9 @@ body {
   font-family: "HelveticaNeue-Light"; }
 
 .logo img {
-  width: 20em;
-  margin-top: -2em; }
+  width: auto;
+  margin-top: -2em;
+  margin-left: 4em; }
 
 .nav-fluidics {
   margin-top: 1em;
@@ -72,14 +73,14 @@ body {
         display: block;
         margin: 0 auto;
         margin-bottom: 1em; }
-  .slide .row .col-sm-2 {
+  .slide .row .col-sm-4.col-lg-2 {
     text-align: center;
     line-height: 80px; }
-    .slide .row .col-sm-2 h4 {
+    .slide .row .col-sm-4.col-lg-2 h4 {
       text-transform: uppercase;
       color: #70dba2;
       line-height: 1.4em; }
-    .slide .row .col-sm-2 .bl {
+    .slide .row .col-sm-4.col-lg-2 .bl {
       background-color: black;
       height: auto;
       padding: 0.2em;
